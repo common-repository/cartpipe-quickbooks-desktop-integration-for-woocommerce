@@ -1,0 +1,206 @@
+#cp-data .panel, 
+#qb-order-data .panel,
+#quickbooks_product_data.panel{
+	background:#ffffff;
+	padding-left:153px;
+}
+#queue_product_data.queue.panel{
+	padding-left:0;
+}
+#queue_product_data.panel{
+	background:#ffffff;
+	min-height:155px;
+}
+#cp-data .panel .short,
+#quickbooks_order_data.panel p.form-field input.short,
+#quickbooks_product_data.panel p.form-field input.short,
+#quickbooks_order_data.panel p.form-field select.short,
+#quickbooks_product_data.panel p.form-field select.short{
+	width:33% !important;
+}
+#cp_product_options h3{
+	background:#f5f5f5;
+	border-bottom:1px solid #dfdfdf;
+}
+#qb-order-data .inside,
+#qb-product-data .inside{
+	padding:0;
+	margin:0;
+}
+#poststuff h3.heading.variations,
+.cp-notice,
+.cp-variations-table{
+	margin-left:-165px;
+}
+.cp p{
+	float:left;
+	margin:2.5px 0;
+	width:100%;
+}
+.cp .columns{
+	 column-count: 2;
+    column-width: 50%;
+    /* Webkit-based */
+    -webkit-column-count: 2;
+    -webkit-column-width: 50%;
+    /* Gecko-based */
+    -moz-column-count: 2;
+    -moz-column-width: 50%;
+}
+#qb-order-data .panel label,
+#qb-product-data .panel label,
+#cp-data .panel label{
+	float: left;
+	width: 150px;
+	padding: 0;
+	margin: 0 0 0 -150px;
+}
+#qb-product-data .panel table label{
+	margin:0;
+}
+.cartpipe_data_tabs{
+	background: #f5f5f5;
+	line-height: 1em;
+	float: left;
+	width: 145px;
+	margin: 0 0 0 -153px;
+	position: relative;
+	padding: 0 0 10px;
+}
+#qb-order-data .panel-wrap,
+#qb-product-data .panel-wrap{
+	background: #fff;
+	padding: 15px;
+	min-height:50px;
+}
+.cartpipe_data_tabs li a{
+	padding: 10px;
+	line-height: 18px!important;
+	margin: 0;
+	display: block;
+	background: #f5f5f5;
+	text-decoration: none;
+	border-bottom: 1px solid #f5f5f5;
+	border-top: 1px solid #eaeaea;
+}
+.live-edit{
+	position:absolute;
+	right:15px;
+	padding:5px;
+}
+.hide{
+	display:none;
+	visibility: hidden;
+}
+.qb_content{
+	
+}
+#qb-order-data .panel .live-edit input,
+#qb-order-data .panel .live-edit img,
+#qb-order-data .panel .live-edit label,
+#qb-product-data .panel .live-edit input,
+#qb-product-data .panel .live-edit img,
+#qb-product-data .panel .live-edit label{
+	margin:0;
+	padding:0 5px;
+	width:auto;
+}
+ul.sync-status{
+	position:absolute;
+	margin:0 auto;
+	left:25%;
+	top:25%;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold;
+}
+/*
+ * Cartpipe Messages
+ */
+#cp_messages{
+	border-top:3px solid #94c841;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding:0 10px;
+	margin-top:10px;
+	margin-right:10px;
+}
+.queued{
+	background-color: rgba(148, 200, 65, 0.1) !important;
+	border:2px solid rgba(148, 200, 65, 1.0) !important;
+	
+}
+.type-shop_order{
+    -webkit-transition: backgroundColor 0.05s ease-in-out;
+    -moz-transition:    backgroundColor 0.05s ease-in-out;
+    -ms-transition:     backgroundColor 0.05s ease-in-out;
+    transition:         backgroundColor 0.05s ease-in-out;
+}
+/*
+ * Queue Actions Meta Box 
+ */
+table.queue-actions{
+	width:100%;
+	padding:5px;
+}
+table.queue-actions tr:first-child td{
+	border-top:0;
+}
+table.queue-actions td{
+	padding:5px 0;
+	border-top:1px solid #ccc;
+	border-collapse: collapse;
+}
+/*
+ * Order View
+ */
+.widefat .column-order_actions a.button.tips.transfer{
+	text-indent: -9999px;
+	position: relative;
+	height:2em;
+	font-size:12.5px;
+	width:2em;
+	padding:0;
+	background:url(images/cloud-icon-black.png) no-repeat center center;
+}
+.post-type-shop_order table.wp-list-table tbody#the-list tr {
+  position: relative;
+}
+.drawer {
+  display: none;
+  position: absolute;
+  background:dodgerblue;
+}
+
+/*
+ * Messages
+ */
+.product-import-result{
+	display:none;
+}
+/*
+ * Debugger
+ */
+.form-table.cpd td,
+.form-table.cpd th{
+	padding:0;
+	margin:0;
+}
+span.break{
+	clear:both;
+	float:left;
+	width:100%;
+	font-style:italic;
+}
+.cp_data .form-field {
+	padding:7.5px 0;
+}
+dt.quickbooks{
+	display:block;
+	font-style:italic;
+}
+dd.quickbooks{
+	margin-left:0;
+	padding-left:0;
+}
